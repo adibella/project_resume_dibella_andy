@@ -1,0 +1,63 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/* General Styling */
+
+#container {
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
+}
+
+#header h1 {
+    font-family: 'Candal', sans-serif;
+    font-size: 3em;
+}
+
+#header ul li {
+    list-style: none;
+}
+
+#content article {
+    margin-left: 0.5em;
+}
+
+.heading {
+    background-color: #b3b3b3;
+    font-family: 'Candal', sans-serif;
+    padding: 0.25em;
+    line-height: 1em;
+    color: #ffffff;
+    box-shadow: 1px 1px 1px rgba(179, 179, 179, 0.5);
+}
+
+.title {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+li {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.9em;
+}
+
+/* End General Styling */
