@@ -21,10 +21,29 @@ html {
 
 /* General Styling */
 
+/* Styling for FlowType plugin */
+
+body {
+    font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 0.9;
+}
+
+/* End styling for FlowType plugin */
+
 #container {
-    width: 90%;
-    max-width: 1300px;
+    width: 95%;
+    max-width: 1000px;
     margin: auto;
+    background-color: #ffffff;
 }
 
 #header h1 {
@@ -36,6 +55,10 @@ html {
     width: 50%;
     margin: auto;
     box-shadow: 1px 1px 1px rgba(179, 179, 179, 1);
+}
+
+#header ul {
+    margin-left: -40px;
 }
 
 #header ul li {
@@ -60,6 +83,12 @@ html {
 li {
     font-family: 'Noto Sans', sans-serif;
     font-size: 0.9em;
+    line-height: 1.45;
+}
+
+article {
+    width: 95%;
+    margin: auto;
 }
 
 /* End General Styling */
@@ -103,6 +132,16 @@ li {
     #content {
         width: 100%;
     }
+
+    #leftcolumn {
+        width: calc(100% / 2 - 1em);
+        float: left;
+    }
+
+    #rightcolumn {
+        width: calc(100% / 2 - 1em);
+        float: right;
+    }
 }
 
 @media (min-width: 1000px) {
@@ -123,3 +162,11 @@ li {
 }
 
 /* End Media Queries */
+
+/* jQuery Items */
+
+.namechange {
+    color: #006699;
+}
+
+/* End jQuery Items */
