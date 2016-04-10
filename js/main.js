@@ -5,7 +5,7 @@ $( document ).ready( function() {
 //Nested jQuery plugin
 
 $( document ).ready( function() {
-
+    $( '#container' ).fullpage();
 } );
 
 //FlowType jQuery plugin
