@@ -4,21 +4,16 @@ $( document ).ready( function() {
 
 //Nested jQuery plugin
 
-$( document ).ready( function() {
-    $( '#container' ).fullpage();
-} );
 
 //FlowType jQuery plugin
-
-$( document ).ready( function() {
-	$( 'body' ).flowtype( {
-		minimum: 500,
-		maximum: 800,
-		minFont: 12,
-		maxFont: 18,
-		fontRatio: 30
-	} );
+$( 'body' ).flowtype( {
+	minimum: 500,
+	maximum: 1200,
+	minFont: 8,
+	maxFont: 22,
+	fontRatio: 30
 } );
+
 
 // jQuery .hover() trying to get working
 //$( 'h1' ).hover( function() {
