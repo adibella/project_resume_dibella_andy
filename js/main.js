@@ -1,25 +1,24 @@
 $( document ).ready( function() {
-	$( 'h1' ).addClass( 'namechange' );
+	$( 'h1' ).hover( function() {
+		$( this ).addClass( 'namechange' );
+		},
+		function() {
+			$( this ).removeClass( 'namechange' );
+		} );
 } );
 
 //FitText jQuery plugin
-
-jQuery( 'h2' ).fitText();
-
-//FlowType jQuery plugin
-$( 'body' ).flowtype( {
-	minimum: 500,
-	maximum: 1200,
-	minFont: 8,
-	maxFont: 20,
-	fontRatio: 20
+$( document ).ready( function() {
+	jQuery( 'h2' ).fitText();
 } );
 
-
-// jQuery .hover() trying to get working
-//$( 'h1' ).hover( function() {
-//	$( this ).addClass( 'namechage' ); },
-//
-//	function() {
-//		$( this ).removeClass( 'namechage' );
-//	} );
+//FlowType jQuery plugin
+$( document ).ready( function() {
+	$( 'body' ).flowtype( {
+		minimum: 500,
+		maximum: 1200,
+		minFont: 8,
+		maxFont: 20,
+		fontRatio: 20
+	} );
+} );
