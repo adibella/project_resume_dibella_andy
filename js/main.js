@@ -2,16 +2,17 @@ $( document ).ready( function() {
 	$( 'h1' ).addClass( 'namechange' );
 } );
 
-//Nested jQuery plugin
+//FitText jQuery plugin
 
+jQuery( 'h2' ).fitText();
 
 //FlowType jQuery plugin
 $( 'body' ).flowtype( {
 	minimum: 500,
 	maximum: 1200,
 	minFont: 8,
-	maxFont: 22,
-	fontRatio: 30
+	maxFont: 20,
+	fontRatio: 20
 } );
 
 
