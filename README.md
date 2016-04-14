@@ -1,7 +1,7 @@
 
 #Resume Readme
 
-[GitHub Link](https://github.com/adibella/project_transformation_dibella_andrew.git
+[GitHub Link](git remote add origin https://github.com/adibella/project_resume_dibella_andy.git
 )
 
 [Host Link](http://www.adibella.net/resume/)
