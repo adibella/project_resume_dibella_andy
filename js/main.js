@@ -6,15 +6,11 @@ $( document ).ready( function() {
 			$( this ).removeClass( 'namechange' );
 		}
 	);
-} );
 
-//FitText jQuery plugin
-$( document ).ready( function() {
+	//FitText jQuery plugin
 	jQuery( 'h2' ).fitText();
-} );
 
-//FlowType jQuery plugin
-$( document ).ready( function() {
+	//FlowType jQuery plugin
 	$( 'body' ).flowtype( {
 		minimum: 500,
 		maximum: 1200,
