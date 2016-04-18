@@ -1,10 +1,11 @@
 $( document ).ready( function() {
 	$( 'h1' ).hover( function() {
-		$( this ).addClass( 'namechange' );
+			$( this ).addClass( 'namechange' );
 		},
 		function() {
 			$( this ).removeClass( 'namechange' );
-		} );
+		}
+	);
 } );
 
 //FitText jQuery plugin
